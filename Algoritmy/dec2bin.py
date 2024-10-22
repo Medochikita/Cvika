@@ -12,6 +12,3 @@ def bin2dec(binaryString: str) -> int:
         num = num * 2 + int(binaryString[i])
 
     return num
-
-
-#n ahoj

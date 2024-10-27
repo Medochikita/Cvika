@@ -1,0 +1,22 @@
+2) 
+00101110 ROL 5 - 11000101
+00101110 ROL 8 - 00101110
+0x1C ROL 4 - 0xC1
+0x84ACFF09 ROL 8 - 0xACFF0984
+10101110 ROR 3 - 11010101
+10101110 ROR 7 - 01011101
+0x84ACFF09 ROR 12 - 0xF0984ACF
+3)
+10 - a) 00001010 b) 00001010 c) 00001010
+0 - a) 00000000 b) 00000000 c) 00000000
+-3 - a) 10000011 b) 11111100 c) 11111101
+-5 - a) 10000101 b) 11111010 c) 11111011
+-124 - a) 11111100 b) 10000011 c) 10000100
+8)
+5 <class 'int'>
+256 <class 'int'>
+1278 <class 'int'>
+251 <class 'unit8'>
+OverflowError: Python integer 256 out of bounds for uint8
+OverflowError: Python integer 1278 out of bounds for uint8
+
